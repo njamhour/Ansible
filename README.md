@@ -6,6 +6,8 @@
 - **Agentless (Sem agentes - 100% limpa)**
 - **Facil de ler(YAML)**
 
+## Informações
+
 ## Roles (Estrutura)
 - **tasks:** lista de tarefas para serem executadas em uma role
 - **handlers:** manipuladores/eventos acionados por uma task
@@ -17,4 +19,4 @@
 
 ## Exemplo comandos
  **ansible -i hosts servidores_web -m setup**
- Realiza o inventario da maquina
+ - Realiza o inventario da maquina
