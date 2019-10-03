@@ -1,12 +1,12 @@
  # Ansible
-Por que Ansible
+##Por que Ansible
 - Ferramenta Open Source
 - Simples (YAML - chave:valor)
 - Baixa curva de aprendizado
 - Agentless (Sem agentes - 100% limpa)
 - Facil de ler(YAML)
 
-'#Roles'
+##Roles
 - tasks: lista de tarefas para serem executadas em uma role
 - handlers: manipuladores/eventos acionados por uma task
 - files: arquivos utilizados para deploy dentro de um role
@@ -15,6 +15,6 @@ Por que Ansible
 - defaults: variaveis padrão de uma role. Prioridade máxima
 - meta: trate dependências de uma role por outr arole - Primeiro diretorio a ser analisado
 
-'#Exemplo comandos'
+##Exemplo comandos
  ansible -i hosts servidores_web -m setup
  Realiza o inventario da maquina
