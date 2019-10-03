@@ -7,6 +7,7 @@
 - **Facil de ler(YAML)**
 
 ## Informações
+- Extremamente recomendado gerar uma chave SSH (RSA) para a agilidade do gerenciamento dos servidores
 
 ## Roles (Estrutura)
 - **tasks:** lista de tarefas para serem executadas em uma role
